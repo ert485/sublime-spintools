@@ -27,7 +27,7 @@ sublimed-spintools is licensed under the [zlib](http://en.wikipedia.org/wiki/Zli
 
 Copyright for modifications in this fork are held by Erik Tetland, 2016
 
-Copyright for work before this fork are held by Brant Wedel, 2013
+Copyright for work before this fork is held by Brant Wedel, 2013
 
 This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
 
