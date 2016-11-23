@@ -4,6 +4,9 @@
 	"path": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin",
 	"variants":
   	[
+  		{
+	      	"name": "Build",
+			"cmd": ["bstc ${file}"],	    },
 	    {
 	      	"name": "Run",
 			"cmd": ["bstc -p0 ${file}"],	    },
