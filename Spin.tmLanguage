@@ -163,7 +163,7 @@
 			<key>comment</key>
 			<string>keywords that haven't fit into other groups (yet).</string>
 			<key>match</key>
-			<string>\b(_CLKMODE|_clkmode|_clkMode|_Clkmode|_XINFREQ|_xinfreq|_xinFreq|_Xinfreq|ABORT|Abort|abort|QUIT|Quit|quit|NEXT|Next|next|WHILE|While|while|UNTIL|Until|until|FROM|From|from|TO|To|to|RETURN|Return|return|DIR[a-zA-Z](?=\[)|Dir[a-zA-Z](?=\[)|dir[a-zA-Z](?=\[)|OUT[a-zA-Z](?=\[)|Out[a-zA-Z](?=\[)|out[a-zA-Z](?=\[)|IN[a-zA-Z](?=\[)|In[a-zA-Z](?=\[)|in[a-zA-Z](?=\[))\b</string>
+			<string>\b(mov|add|sub|rdlong|wrlong|cmp|_CLKMODE|_clkmode|_clkMode|_Clkmode|_XINFREQ|_xinfreq|_xinFreq|_Xinfreq|ABORT|Abort|abort|QUIT|Quit|quit|NEXT|Next|next|WHILE|While|while|UNTIL|Until|until|FROM|From|from|TO|To|to|RETURN|Return|return|DIR[a-zA-Z](?=\[)|Dir[a-zA-Z](?=\[)|dir[a-zA-Z](?=\[)|OUT[a-zA-Z](?=\[)|Out[a-zA-Z](?=\[)|out[a-zA-Z](?=\[)|IN[a-zA-Z](?=\[)|In[a-zA-Z](?=\[)|in[a-zA-Z](?=\[))\b</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -1028,7 +1028,7 @@
 		<dict>
 			<key>match</key>
 			<string>(?x)\b(
-                STRING|String|string|WAITCNT|Waitcnt|WaitCnt|waitcnt|waitCnt|COGNEW|CogNew|Cognew|cogNew|cognew|COGSTOP|CogStop|Cogstop|cogStop|cogstop|ABS|Abs|abs|MAX|Max|max|MIN|Min|min|NEG|Neg|neg|STRSIZE|StrSize|StrSIZE|strSIZE|strSize|Strsize|strsize|LONGFILL|LongFILL|longFILL|LongFill|longFill|Longfill|longfill|BYTEMOVE|ByteMove|ByteMOVE|byteMOVE|byteMove|Bytemove|bytemove|BYTEFILL|ByteFILL|ByteFill|Bytefill|byteFILL|ByteFILL|byteFill|bytefill|LOOKUPZ|LookUpz|lookUpz|LookUpZ|lookUpZ|LookUPZ|Lookupz|lookupz|CONSTANT|Constant|constant
+                STRING|String|string|WAITCNT|Waitcnt|WaitCnt|waitcnt|waitCnt|COGNEW|CogNew|Cognew|cogNew|cognew|COGSTOP|CogStop|Cogstop|cogStop|cogstop|ABS|Abs|abs|MAX|Max|max|MIN|Min|min|NEG|Neg|neg|STRSIZE|StrSize|StrSIZE|strSIZE|strSize|Strsize|strsize|LONGFILL|LongFILL|longFILL|LongFill|longFill|Longfill|longfill|BYTEMOVE|ByteMove|ByteMOVE|byteMOVE|byteMove|Bytemove|bytemove|BYTEFILL|ByteFILL|ByteFill|Bytefill|byteFILL|ByteFILL|byteFill|bytefill|LOOKUPZ|LookUpz|lookUpz|LookUpZ|lookUpZ|LookUPZ|Lookupz|lookupz|CONSTANT|Constant|constant|
 			)\b(?=\s*\()</string>
 			<key>name</key>
 			<string>support.function.builtin.spin</string>
@@ -1390,7 +1390,7 @@
 						long|lshift|lt|mod|mul|ne|neg|new|nonzero|oct|or|pos|pow|
 						radd|rand|rdiv|rdivmod|repr|rfloordiv|rlshift|rmod|rmul|ror|
 						rpow|rrshift|rshift|rsub|rtruediv|rxor|set|setattr|setitem|
-						setslice|str|sub|truediv|unicode|xor
+						setslice|str|sub|truediv|unicode|xor|mov|rdlong|add|wrlong
 					)__)\b</string>
 			<key>name</key>
 			<string>support.function.magic.spin</string>
