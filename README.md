@@ -10,7 +10,8 @@ Also it allows building, running, and writing to eeprom from sublime (linux only
 3. In "Package Control", find "Install Package" and enter sublime-spintools
 
 
-
+Recommended other sublime packages:
+All Autocomplete - extends your autocomplete definitions to all open files
 
 
 ## Supported languages
