@@ -1,5 +1,14 @@
 {
 	"shell": true,
-	"cmd": ["bstc -p0 ${file}"],
-	"path": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+	"cmd": ["bstc ${file}"],
+	"path": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin",
+	"variants":
+  	[
+	    {
+	      	"name": "Run",
+			"cmd": ["bstc -p0 ${file}"],	    },
+	    {
+	      	"name": "Write",
+			"cmd": ["bstc -p2 ${file}"],	    }
+	]
 }
