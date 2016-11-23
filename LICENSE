@@ -1,26 +1,3 @@
-sublime-spintools is a plugin for [sublime text 2 and 3](http://www.sublimetext.com/)
-that properly highlights and indents Parallax Propeller Spin source code.
-
-Also it allows building, running, and writing to eeprom from sublime (linux only so far)
-
-## Installation
-
-1. Install "Package Control" for sublime if you haven't already
-2. In "Package Control", find "Add Repository" and enter the link to this repo (https://github.com/ert485/sublime-spintools)
-3. In "Package Control", find "Install Package" and enter sublime-spintools
-
-
-
-
-
-## Supported languages
-
-<table>
-  <tr><td>spin</td><td>.spin</td></tr>
-</table>
-
-## License 
-
 sublimed-spintools is licensed under the [zlib](http://en.wikipedia.org/wiki/Zlib_license) license:
 
 ---
